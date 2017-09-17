@@ -232,7 +232,7 @@ public class StudentGroup implements StudentArrayOperation {
 			{
 			x=this.students[j].compareTo(this.students[j+1]);
 			if(x==0){;}
-			if(x<0){Student temp=this.students[j];this.students[j]=this.students[j++];this.students[j++]=temp;}
+			if(x>0){Student temp=this.students[j];this.students[j]=this.students[j++];this.students[j++]=temp;}
 			}
 			}
 	}
